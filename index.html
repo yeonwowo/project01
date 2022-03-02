@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="./swiper.min.css">
+    <script src="./common.js"></script>
+   
+</head>
+
+<body  style="overflow-x: hidden">
+    <header class="hd">
+        
+        <div class="inner">
+            <nav>
+                <h1 class="logo">
+                    <a href="./index.css"><img src="./img/logo.png" alt="logo"></a>
+                </h1>
+                <ul class="gnb">
+                    <li>
+                        <a href="#">소개</a>
+                        <ul class="dep2">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">비전</a></li>
+                            <li><a href="#">연혁</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">후원</a>
+                        <ul class="dep2">
+                            <li><a href="#">후원하기</a></li>
+                            <li><a href="#">후원Q&A</a></li>
+                            <li><a href="#">살림공개</a></li>
+                            <li><a href="#">후원물품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">참여</a>
+                        <ul class="dep2">
+                            <li><a href="#">학대제보</a></li>
+                            <li><a href="#">위기동물지원</a></li>
+                            <li><a href="#">유기동물발견시</a></li>
+                            <li><a href="#">게시판</a></li>
+                            <li><a href="#">후원증액</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>ON&ON</p>
+                        </a>
+                        <ul class="dep2">
+                            <li><a href="#">ON&ON프로젝트</a></li>
+                            <li><a href="#">ON CAT</a></li>
+                            <li><a href="#">ON후원안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">활동</a>
+                        <ul class="dep2">
+                            <li><a href="#">정책/입법</a></li>
+                            <li><a href="#">복지동물</a></li>
+                            <li><a href="#">위기동물</a></li>
+                            <li><a href="#">동물보호교육</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">온센터</a>
+                        <ul class="dep2">
+                            <li><a href="#">온세상</a></li>
+                            <li><a href="#">결연후원</a></li>
+                            <li><a href="#">입양하기</a></li>
+                            <li><a href="#">봉사활동</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">자료</a>
+                        <ul class="dep2">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">보고서/출판물</a></li>
+                            <li><a href="#">매거진</a></li>
+                            <li><a href="#">동영상</a></li>
+                            <li><a href="#">보도자료</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="top">
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="#">로그인</a>
+                <i class="fas fa-user"></i>
+                <a href="#">회원가입</a>
+            </div>
+            <div class="ham"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <p>22마리 사육곰이 <span>생츄어리</span>로 갑니다!</p>
+                  <p>코로나로 마비된 수입허가! 1년만에 승인!</p>
+                  <img src="./img/main_01.svg" alt="메인">
+                </div>
+                <div class="swiper-slide"><img src="./img/main_03.png" alt="메인"></div>
+                <div class="swiper-slide"><img src="./img/main_04.png" alt="메인"></div>
+                
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <script src="./swiper.min.js"></script>
+          <script>
+              var swiper = new Swiper('.swiper-container', {
+                pagination: {
+                  el: '.swiper-pagination',
+                  type: 'progressbar',
+                },
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              });
+            </script>
+
+
+
+        <div class="icon">
+            <div class="icon_con">
+                <div>
+                    <div class="icon_inner1">
+                        <img src="./img/달력.svg" alt="img">
+                        <div>
+                            <p>정기후원</p>
+                            <p><span>든든한 후원자가 되어주세요.</span></p>
+                            <a href="#">함께하기 <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="icon_inner1">
+                        <img src="./img/결연.svg" alt="img">
+                        <div>
+                            <p>결연후원</p>
+                            <p><span>결연후원에 동참해주세요.</span></p>
+                            <a href="#">함께하기 <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="icon_inner1">
+                        <img src="./img/증액.svg" alt="img">
+                        <div>
+                            <p>후원증액</p>
+                            <p><span>따뜻한 손길이 필요합니다.</span></p>
+                            <a href="#">함께하기 <i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="sec1">
+        <div class="inner_con">
+            <h2>소식</h2>
+            <div class="list">
+                <a href="#">더보기 <i class="fas fa-chevron-right"></i></a>
+                <ul class="list_inner">
+                    <li>
+                        <a href="#"><img src="./img/new_1.png" alt=""></a>
+                        <p>동물학대</p>
+                        <p><span>
+                                적절한 치료를 받지 못한 채 <br>
+                                방치 되었던 "레디"
+                            </span></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/new_2.png" alt=""></a>
+                        <p>전시동물</p>
+                        <p><span>
+                                대규모 반려동물 사료공장 <br>
+                                계획 철회
+                            </span></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/new_3.png" alt=""></a>
+                        <p>동물실험</p>
+                        <p><span>
+                                화장품 동물실험에 가담되었던<br>
+                                고양이 남매 "두치" 와 "뿌꾸"
+                            </span></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/new_4.png" alt=""></a>
+                        <p>정책</p>
+                        <p><span>
+                                [논평] 식용 종식<br>
+                                이제는 물러남이 없어야 한다
+                            </span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec2">
+        <div class="inner_con">
+            <h2>온 세상이야기</h2>
+            <div class="list">
+                <a href="#">더보기 <i class="fas fa-chevron-right"></i></a>
+                <ul class="list_inner1">
+                    <li>
+                        <a href="#"><img src="./img/on_1.png" alt=""></a>
+                        <p>연예인과 마음 따듯한 봉사</p>
+                        <p><span>
+                                이기우 배우와 함께 기부 및<br>
+                                봉사활동을 진행했습니다.
+                            </span></p>
+                           
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/on_2.png" alt=""></a>
+                        <p>온센터 동물들의 증멍사진</p>
+                        <p><span>
+                                가족을 기다리는 온센터 동물들의<br>
+                                증멍사진을 소개합니다!
+                            </span></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/on_3.png" alt=""></a>
+                        <p>합사 마무리!</p>
+                        <p><span>
+                                "밀또"와"뚱배"의 합사 마무리<br>
+                                과연 둘은 친해졌을까요?
+                            </span></p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/on_4.png" alt=""></a>
+                        <p>수달이의 매력은?</p>
+                        <p><span>
+                                매력쟁이 온센터의<br>
+                                공주님 수달이의 하루일과!
+                            </span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec3">
+        <div class="inner_3">
+            <div class="con_3">
+                <img src="./img/dog_1.png" alt="">
+                <div>
+                    <p>입양하기</p>
+                    <p><span>
+                        도움이 필요한 동물에게<br>
+                        보금자리를 내어줄 수 있는 기회!<br>
+                        동물자유연대에서 입양하세요!
+                    </span></p>
+                    <a href="#">입양신청하기 ></a>
+                </div>
+            </div>
+            <div class="con_4">
+                <img src="./img/cat_1.png" alt="">
+                <div>
+                    <p>결연후원</p>
+                    <p><span>
+                            결연후원으로 대부모님이<br>
+                            되어주신다면 입양되기 전까지<br>
+                            윤택한 삶을 살 수 있습니다.
+                        </span></p>
+                        <a href="#">결연후원신청 ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="foot">
+        <div class="back">
+            <div class="ft_top">
+                <div class="ft_2">
+                    <a href="#">개식용 종식</a>
+                    <a href="#">케이지 프리 코리아</a>
+                    <a href="#">동물보호관리시스템</a>
+                    <a href="#">가입약관</a>
+                </div>
+                <div class="sns_set">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="back2">
+            <div class="ft">
+                <div class="copy">
+                    <p>대표 : 조희경</p>
+                    <p>주소: 서울특별시 성동구 해당로 17길 10(우주빌딩)</p>
+                    <address>
+                        <a href="tel:+0422708365">전화 : 042-270-8365</a><br>
+                        <a href="tel:+0422708365">팩스 : 042-270-8369</a><br>
+                        <a href="mailto:dma123@naver.com">이메일 : dma123@naver.com</a>
+                    </address>
+                    <p>Copyright © 2019 동물자유연대. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news_con">
+                <a href="#">
+                    <i class="far fa-envelope-open"></i>
+                    <p>뉴스레터 신청</p>
+                    <p>동물자유연대 뉴스레터 신청하기</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+
+</html>
